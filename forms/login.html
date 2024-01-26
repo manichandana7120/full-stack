@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Login</legend>
+        <div>
+          <label for="na" name="fn"></label>
+          <input type="text" id="na" placeholder="enter your first name" />
+        </div>
+        <br />
+        <div>
+          <label for="na1" name="fn1"></label>
+          <input
+            type="text"
+            id="na1"
+            placeholder="enter your last name"
+            readonly
+          />
+        </div>
+        <br />
+        <div>
+          <label for="em" name="mail"></label>
+          <input type="text" id="em" placeholder="enter your mail id" />
+        </div>
+        <br />
+        <div>
+          <label for="ps" name="pss"></label>
+          <input type="password" id="ps" minlength="8" maxlength="12" />
+        </div>
+        <br />
+        <div>
+          <label for="da" value="date"></label>
+          <input type="date" id="da" />
+        </div>
+        <br />
+        <div>
+          <label for="course">Choose a cource:</label>
+
+          <select name="course" id="course">
+            <option value="">--Please choose an option--</option>
+            <option value="bsc">Bsc</option>
+            <option value="msc">Msc</option>
+            <option value="b tech">B.tech</option>
+            <option value="m tech">M.tech</option>
+            <option value="deploma">Deploma</option>
+            <option value="inter">inter</option>
+          </select>
+        </div>
+        <div>
+            <label for="collagee">Choose a collage:</label>
+<input list="collage" id="collagee" name="collage" />
+
+<datalist id="collage">
+  <option value="OU"></option>
+  <option value="KU"></option>
+  <option value="Rbvrr"></option>
+  <option value="vasavi"></option>
+  <option value="gayatri"></option>
+</datalist>
+        </div>
+
+    
+      </fieldset>
+    </form>
+  </body>
+</html>
