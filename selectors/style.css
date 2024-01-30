@@ -1,0 +1,92 @@
+
+
+body{
+    background-image: url(../dod3.jpg);
+    background-size: cover;
+
+
+}
+.menu{
+    font-size: 50px;
+    align-items: left;
+    padding: 20px;
+}
+
+  
+.menu:active {
+ color: rgb(87, 194, 229);
+}
+.menu:link{
+    color: rgb(38, 189, 56);
+}
+.menu:visited{
+    color: bisque;
+}
+div > p{
+    font-size: 80px;
+    color: rgb(96, 85, 85);
+    align-content: center;
+    justify-content: center;
+    
+
+}
+div + p{
+    font-size: 40px;
+    color: azure;
+}
+.con{
+    width: 400px;
+
+
+}
+
+#btn{
+    background-color: rgb(83, 72, 72);
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+#led{
+     font-size: 60px;
+     color: rgb(74, 67, 67);
+
+}
+
+
+.na{
+    height: 30px;
+    
+}
+.box{
+    display:flex;
+    margin: 10px;
+}
+
+ .box1{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url(german.jpg);
+    background-size: cover;
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url(Beagle.jpg);
+    background-size: cover;
+}
+.box3{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url(Cute-Dog-Images.jpg);
+    background-size: cover;
+}
+
